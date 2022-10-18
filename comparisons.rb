@@ -103,15 +103,19 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+loves_to_play && age 
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+# My final answer evaluated to true because both loves_to_play and age evaluate to be true. If I wanted to be more specific,
+# I would write something like loves_to_play && age < 2. By adding the less than symbol to age I can ensure that the dog is still 
+# a puppy by requiring the age of the dog to be less than 2.
