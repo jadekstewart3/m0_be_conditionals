@@ -60,20 +60,27 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+# This line of code is asking if 4 is less than 9 and will print the result: true
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# Line 67 is assigning the variable called books to equal three.
+# Line 68 asking if 4 is less than the value of the variable books, and will print the result: false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# Line 73 is assigning the variable friends equal to 6. Line 74 is assigning the variable siblings equal to 2.
+# The puts statement on line 73 is asking if the variable friends is greater than the variable siblings, and will print true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# Line 78 is assigning the variable attendees equal to 9. Line 79 is assigning the variable meals equal to 8.
+# The puts statement on like 80 is asking if attendees does not equal meals, and will print the result true.
 
 
 #-------------------
